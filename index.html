@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Library - Musizona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("bg.jpg"); /* Update the URL to your image path */
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            background: rgba(235, 76, 76, 0.9);
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 60%;
+            opacity: 80%;
+            font-size: 25px;
+            text-align: center;
+        }
+        .container h2 {
+            margin-top: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container h2 img {
+            margin-right: 10px;
+            width: 40px; /* Adjust the size of the logo as needed */
+            height: auto;
+        }
+        .container a {
+            display: block;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #d60b0b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .container a:hover {
+            background-color: #07fe5e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><img src="logo.png" alt="Musizona Logo">Musizona Music Library</h2>
+        <section>
+            <a href="hindi.html">Hindi Songs</a>
+            <a href="english.html">English Songs</a>
+            <a href="kannada.html">Kannada Songs</a>
+            <a href="telugu.html">Telugu Songs</a>
+        </section>
+    </div>
+</body>
+</html>
